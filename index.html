@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Covid19</title>
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <style>
+    @import url("style.css");
+  </style>
+  <body>
+    <!--Main Navigation-->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
+        <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="view intro-2">
+        <div class="full-bg-img">
+          <div class="mask rgba-black-light flex-center">
+            <div class="container text-center white-text">
+              <div class="white-text text-center wow fadeInUp">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main Layout-->
+    <main class="text-center py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p align="justify">
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Main Layout-->
+
+    <!--Main Layout-->
+    <main class="text-center py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p align="justify">
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Main Layout-->
+    <div class="container my-5 py-5 z-depth-1">
+      <!--Section: Content-->
+      <section class="dark-grey-text text-center">
+        <h3 class="font-weight-bold pt-5 pb-2">Material Design Blocks</h3>
+
+        <div class="row mx-3">
+          <div class="col-md-4 px-4 mb-4">
+            <div class="view">
+              <img
+                src="https://mdbootstrap.com/img/illustrations/drawkit-drawing-man-colour.svg"
+                class="img-fluid"
+                alt="smaple image"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 px-4 mb-4">
+            <div class="view">
+              <img
+                src="https://mdbootstrap.com/img/illustrations/drawkit-phone-conversation-colour.svg"
+                class="img-fluid"
+                alt="smaple image"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 px-4 mb-4">
+            <div class="view">
+              <img
+                src="https://mdbootstrap.com/img/illustrations/app-user-colour.svg"
+                class="img-fluid"
+                alt="smaple image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+    </div>
+
+    <div class="container my-5">
+      <!--Section: Content-->
+      <section class="">
+        <!-- Section heading -->
+        <h3 class="text-center font-weight-bold mb-5">Latest news</h3>
+
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-4 mb-4">
+            <!--Card-->
+            <div class="card">
+              <!--Card image-->
+              <div class="view overlay">
+                <img
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(49).jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <a>
+                  <div
+                    class="mask rgba-white-slight waves-effect waves-light"
+                  ></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title"><strong>Card title</strong></h4>
+                <hr />
+                <!--Text-->
+                <p class="card-text mb-3">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p class="font-small font-weight-bold dark-grey-text mb-1">
+                  <i class="far fa-clock-o"></i> 27/08/2019
+                </p>
+                <p class="font-small grey-text mb-0">Anna Smith</p>
+                <p class="text-right mb-0 font-small font-weight-bold">
+                  <a>read more <i class="fas fa-angle-right"></i></a>
+                </p>
+              </div>
+              <!--/.Card content-->
+            </div>
+            <!--/.Card-->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-4">
+            <!--Card-->
+            <div class="card">
+              <!--Card image-->
+              <div class="view overlay">
+                <img
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20(33).jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <a>
+                  <div
+                    class="mask rgba-white-slight waves-effect waves-light"
+                  ></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title"><strong>Card title</strong></h4>
+                <hr />
+                <!--Text-->
+                <p class="card-text mb-3">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p class="font-small font-weight-bold dark-grey-text mb-1">
+                  <i class="far fa-clock-o"></i> 27/08/2019
+                </p>
+                <p class="font-small grey-text mb-0">Anna Smith</p>
+                <p class="text-right mb-0 font-small font-weight-bold">
+                  <a>read more <i class="fas fa-angle-right"></i></a>
+                </p>
+              </div>
+              <!--/.Card content-->
+            </div>
+            <!--/.Card-->
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-4">
+            <!--Card-->
+            <div class="card">
+              <!--Card image-->
+              <div class="view overlay">
+                <img
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20(84).jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <a>
+                  <div
+                    class="mask rgba-white-slight waves-effect waves-light"
+                  ></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title"><strong>Card title</strong></h4>
+                <hr />
+                <!--Text-->
+                <p class="card-text mb-3">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <p class="font-small font-weight-bold dark-grey-text mb-1">
+                  <i class="far fa-clock-o"></i> 27/08/2019
+                </p>
+                <p class="font-small grey-text mb-0">Anna Smith</p>
+                <p class="text-right mb-0 font-small font-weight-bold">
+                  <a>read more <i class="fas fa-angle-right"></i></a>
+                </p>
+              </div>
+              <!--/.Card content-->
+            </div>
+            <!--/.Card-->
+          </div>
+          <!--Grid column-->
+        </div>
+
+        <div class="text-center mt-4 mb-5">
+          <a class="black-text font-weight-bold" href="#!"
+            >Browse all articles <i class="fa fa-angle-right"></i
+          ></a>
+        </div>
+      </section>
+      <!--Section: Content-->
+    </div>
+
+    <div class="container my-5 py-5 z-depth-1">
+      <!--Section: Content-->
+      <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-lg-8 text-center">
+            <h3 class="font-weight-bold mb-4">Italy cases active now</h3>
+
+            <!--Image-->
+            <div class="view overlay z-depth-1-half">
+              <canvas id="italyChart" width="640" height="480"></canvas>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!--Section: Content-->
+    </div>
+    <!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!--Grid row-->
+      <div class="row">
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-12 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(78).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(79).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-12 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(81).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(84).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+      </div>
+      <!--Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-google-plus-g"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fab fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+  </body>
+
+  <script>
+    let xlabelsItaly = [];
+    let ydataItaly = [];
+
+    visualizeItalyChart();
+
+    async function visualizeItalyChart() {
+      await getItalyData();
+      const ctx = document.getElementById("italyChart").getContext("2d");
+
+      let gradientStroke = ctx.createLinearGradient(0, 230, 0, 50);
+
+      gradientStroke.addColorStop(1, "rgba(29,140,248,0.2)");
+      gradientStroke.addColorStop(0.4, "rgba(29,140,248,0.0)");
+      gradientStroke.addColorStop(0, "rgba(29,140,248,0)"); //blue colors
+      const myChart = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: xlabelsItaly,
+          datasets: [
+            {
+              label: "Italy cases active now",
+              data: ydataItaly,
+              fill: true,
+              backgroundColor: gradientStroke,
+              borderColor: "#1f8ef1",
+              borderWidth: 2,
+              borderDash: [],
+              borderDashOffset: 0.0,
+              pointBackgroundColor: "#1f8ef1",
+              pointBorderColor: "rgba(255,255,255,0)",
+              pointHoverBackgroundColor: "#1f8ef1",
+              pointBorderWidth: 20,
+              pointHoverRadius: 4,
+              pointHoverBorderWidth: 15,
+              pointRadius: 4,
+              backgroundColor: [
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(153, 102, 255, 0.2)",
+                "rgba(255, 159, 64, 0.2)",
+                "rgba(255, 100, 246, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(153, 102, 255, 0.2)",
+                "rgba(255, 159, 64, 0.2)",
+                "rgba(255, 100, 246, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(153, 102, 255, 0.2)",
+                "rgba(255, 159, 64, 0.2)",
+                "rgba(255, 100, 246, 0.2)",
+              ],
+              borderColor: [
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(153, 102, 255, 0.2)",
+                "rgba(255, 159, 64, 0.2)",
+                "rgba(255, 100, 246, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(153, 102, 255, 0.2)",
+                "rgba(255, 159, 64, 0.2)",
+                "rgba(255, 100, 246, 0.2)",
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(153, 102, 255, 0.2)",
+                "rgba(255, 159, 64, 0.2)",
+                "rgba(255, 100, 246, 0.2)",
+              ],
+              borderWidth: 3,
+            },
+          ],
+        },
+        options: {
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  beginAtZero: true,
+                },
+              },
+            ],
+          },
+        },
+      });
+    }
+
+    async function getItalyData() {
+      const response = await fetch("https://covid-api.com/api/reports?q=italy");
+      const data = await response.json();
+
+      Object.keys(data).forEach((item) => {
+        data[item].map((subitem) => {
+          ydataItaly.push(subitem.active);
+          xlabelsItaly.push(subitem.region.province);
+        });
+      });
+    }
+  </script>
+
+  <!-- <script>
+    let xlabelsWorld = [];
+    let ydataWorld = [];
+
+    visualizeWorldChart();
+
+    async function visualizeWorldChart() {
+      await getWorldData();
+      const ctx = document.getElementById("worldChart").getContext("2d");
+
+      const myChart = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: xlabelsWorld,
+          datasets: [
+            {
+              label: "World cases",
+              data: ydataWorld,
+              backgroundColor: [
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(153, 102, 255, 0.2)",
+                "rgba(255, 159, 64, 0.2)",
+              ],
+              borderColor: [
+                "rgba(255, 99, 132, 1)",
+                "rgba(54, 162, 235, 1)",
+                "rgba(255, 206, 86, 1)",
+                "rgba(75, 192, 192, 1)",
+                "rgba(153, 102, 255, 1)",
+                "rgba(255, 159, 64, 1)",
+              ],
+              borderWidth: 1,
+            },
+          ],
+        },
+        options: {
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  beginAtZero: true,
+                },
+              },
+            ],
+          },
+        },
+      });
+    }
+
+    async function getWorldData() {
+      const response = await fetch("https://covid-api.com/api/reports");
+      const data = await response.json();
+
+      Object.keys(data).forEach((item) => {
+        data[item].map((subitem) => {
+          ydataWorld.push(subitem.confirmed);
+          xlabelsWorld.push(subitem.region.province);
+        });
+      });
+    }
+  </script> -->
+</html>
