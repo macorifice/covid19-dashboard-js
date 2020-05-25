@@ -13,11 +13,22 @@ This is a simple dashboard to visualize data from covid19 API and lastest news a
 
 https://covid-2019-pandemic.herokuapp.com/index.html
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Contributing 
+Pull requests are welcome [here](https://github.com/macorifice/covid19-dashboard-js/pulls). For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## Installation & Usage
+git clone https://github.com/macorifice/covid19-dashboard-js.git
+serve index.html
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Bug Reports
+Report [here](https://github.com/macorifice/covid19-dashboard-js/issues) . Guaranteed reply within a day.
+
+##Contact
+Stefano Di Cecco (diceccostefano87@gmail.com)
+
+Follow me on github
