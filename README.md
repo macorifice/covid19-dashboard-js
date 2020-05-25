@@ -2,8 +2,9 @@
 
 
 
-[![npm version](https://badge.fury.io/js/bootstrap.svg)](https://badge.fury.io/js/bootstrap)
-[![npm version](https://badge.fury.io/js/chartjs.svg)](https://badge.fury.io/js/chartjs)
+[![](https://img.shields.io/badge/Bootstrap-4.3.1-green>)](https://getbootstrap.com/)
+[![](https://img.shields.io/badge/Chart.js-2.9.3-blue>)](https://www.chartjs.org/)
+[![](https://img.shields.io/badge/Version-0.0.1-red>)](https://covid-2019-pandemic.com/)
 
 
 This is a simple dashboard to visualize data from covid19 API and lastest news about this
