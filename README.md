@@ -20,6 +20,9 @@ Please make sure to update tests as appropriate.
 
 ## Installation & Usage
 git clone https://github.com/macorifice/covid19-dashboard-js.git
+
+&&
+
 serve index.html
 
 ## License
@@ -28,7 +31,7 @@ serve index.html
 ## Bug Reports
 Report [here](https://github.com/macorifice/covid19-dashboard-js/issues) . Guaranteed reply within a day.
 
-##Contact
+## Contact
 Stefano Di Cecco (diceccostefano87@gmail.com)
 
 Follow me on github
