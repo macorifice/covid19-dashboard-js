@@ -11,7 +11,7 @@ This is a simple dashboard to visualize data from covid19 API and lastest news a
 
 ## Demo
 
-https://covid-2019-pandemic.com/
+http://covid-2019-pandemic.com
 
 ## Contributing 
 Pull requests are welcome [here](https://github.com/macorifice/covid19-dashboard-js/pulls). For major changes, please open an issue first to discuss what you would like to change.
